@@ -5,7 +5,11 @@ Afin de construire ce projet vous avez simplement à ouvrir `vscode` et à cliqu
 
 Pour comprendre comment le build fonctionne vous pouvez aller lire le fichier `knob.c` et `.vscode/tasks.json`.
 
-Pour que la compilation fonctionne, vous devez modifier cette ligne dans `knob.c` et remplacer le nom du fichier par le nom de votre `entrypoint.c`: `knob_cmd_append(&cmd,"./src/labX_entrypoint.c",);`
+Pour que la compilation fonctionne, vous devez modifier cette ligne dans `knob.c` et remplacer le nom du fichier par le nom de votre `entrypoint.c`: 
+
+```c 
+knob_cmd_append(&cmd,"./src/labX_entrypoint.c",);
+```
 
 ## To Run/Debug:
 Pour débugger le code, pèser sur `F5` comme dans Visual Studio. Assurez-vous d'avoir installé l'extension c/c++:
