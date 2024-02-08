@@ -1,0 +1,21 @@
+{
+    "files.associations": {
+        "*.inc": "c",
+        "assert.h": "c",
+        "limits.h": "c",
+        "stdint.h": "c",
+        "algorithm": "c",
+        "chrono": "c",
+        "complex": "c",
+        "optional": "c",
+        "system_error": "c",
+        "type_traits": "c",
+        "xlocmon": "c",
+        "xtr1common": "c",
+        "xutility": "c",
+        "codecvt": "c",
+        "xlocale": "c",
+        "__locale": "c"
+    },
+    "cmake.configureOnOpen": false
+}
