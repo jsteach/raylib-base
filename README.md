@@ -1,12 +1,15 @@
 # raylib-base 
 
 ## To Build:
-Afin de construire ce projet vous avez simplement aller dans `vscode` et à cliquer sur `ctrl+shift+b`.
+Afin de construire ce projet vous avez simplement à ouvrir `vscode` et à cliquer sur `ctrl+shift+b` lorsque l'application à le focus.
 
 Pour comprendre comment le build fonctionne vous pouvez aller lire le fichier `knob.c` et `.vscode/tasks.json`.
 
+Pour que la compilation fonctionne, vous devez modifier cette ligne dans `knob.c` et remplacer le nom du fichier par le nom de votre `entrypoint.c`: `knob_cmd_append(&cmd,"./src/labX_entrypoint.c",);`
+
 ## To Run/Debug:
-Pour débugger le code, pèser sur `F5` comme dans Visual Studio.
+Pour débugger le code, pèser sur `F5` comme dans Visual Studio. Assurez-vous d'avoir installé l'extension c/c++:
+![[Capture.PNG]]
 
 Pour comprendre comment le run fonctionne, vous pouvez aller lire `launch.json`.
 

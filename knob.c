@@ -15,6 +15,7 @@ static const char *raylib_modules[] = {
 #define RAYLIB_PATH "./raylib/raylib-5.0"
 
 void init_cmd(Knob_Cmd* cmd){
+    cmd->capacity = 0;
     knob_cmd_append(cmd, "./Tools/windows_x64/zig.exe","cc");
     knob_cmd_append(cmd, "-static");
     knob_cmd_append(cmd, "--debug", "-std=c11", "-fno-sanitize=undefined","-fno-omit-frame-pointer");
@@ -38,13 +39,12 @@ bool build_game(void)
     if (!knob_mkdir_if_not_exists("./Deployment")) {
         knob_return_defer(false);
     }
-    cmd.count = 0;
+
     init_cmd(&cmd);
-    knob_cmd_append(&cmd,"./src/lab1_entrypoint.c",);
+    knob_cmd_append(&cmd,"./src/labX_entrypoint.c",);
     knob_cmd_append(&cmd, "-o", "./Deployment/game.exe");
     if (!knob_cmd_run_sync(cmd)) knob_return_defer(false);
     // Ajouter pour chaque labo:
-    // cmd.count = 0;
     // init_cmd(&cmd);
     // knob_cmd_append(&cmd,"./src/laboX_entrypoint.c",);
     // knob_cmd_append(&cmd, "-o", "./Deployment/game.exe");
