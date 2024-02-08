@@ -11,7 +11,7 @@ Pour que la compilation fonctionne, vous devez modifier cette ligne dans `knob.c
 Pour débugger le code, pèser sur `F5` comme dans Visual Studio. Assurez-vous d'avoir installé l'extension c/c++:
 ![Capture](https://github.com/jsteach/raylib-base/assets/114700235/4313801d-b186-4bf2-b907-662c2f61ba3a)
 
-Pour comprendre comment le run fonctionne, vous pouvez aller lire `launch.json`.
+Pour comprendre comment le run fonctionne, vous pouvez lire `launch.json`.
 
 ## Pour travailler:
 Pour chacun des labos copier le fichier `entrypoint.c` et renommer le `labX_entrypoint.c`, `X` étant le numéros du labo.
