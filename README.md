@@ -9,7 +9,7 @@ Pour que la compilation fonctionne, vous devez modifier cette ligne dans `knob.c
 
 ## To Run/Debug:
 Pour débugger le code, pèser sur `F5` comme dans Visual Studio. Assurez-vous d'avoir installé l'extension c/c++:
-![[Capture.PNG]]
+![Capture](https://github.com/jsteach/raylib-base/assets/114700235/4313801d-b186-4bf2-b907-662c2f61ba3a)
 
 Pour comprendre comment le run fonctionne, vous pouvez aller lire `launch.json`.
 
