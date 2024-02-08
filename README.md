@@ -1,5 +1,7 @@
 # raylib-base 
 
+`git clone --recursive https://github.com/jsteach/raylib-base.git`
+
 ## To Build:
 Afin de construire ce projet vous avez simplement à ouvrir `vscode` et à cliquer sur `ctrl+shift+b` lorsque l'application à le focus.
 
