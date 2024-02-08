@@ -21,7 +21,7 @@ Pour comprendre comment le run fonctionne, vous pouvez lire `launch.json`.
 Pour chacun des labos copier le fichier `entrypoint.c` et renommer le `labX_entrypoint.c`, `X` étant le numéros du labo.
 
 
-Pour vous aider, vous pouvez aller voir la documentation de [raylib](https://www.raylib.com/cheatsheet/cheatsheet.html).
+Pour vous aider, vous pouvez lire la documentation de [raylib](https://www.raylib.com/cheatsheet/cheatsheet.html).
 
 Vous pouvez aussi utiliser les [examples](https://www.raylib.com/examples.html) pour voir les possibilités.
 
