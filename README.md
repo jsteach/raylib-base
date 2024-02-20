@@ -7,10 +7,10 @@ Afin de construire ce projet vous avez simplement à ouvrir `vscode` et à cliqu
 
 Pour comprendre comment le build fonctionne vous pouvez aller lire le fichier `knob.c` et `.vscode/tasks.json`.
 
-Pour que la compilation fonctionne, vous devez modifier cette ligne dans `knob.c` et remplacer le nom du fichier par le nom de votre `entrypoint.c`: 
+Pour que la compilation fonctionne, vous devez modifier cette ligne dans `knob.c` et remplacer le nom du fichier par le nom de votre `entrypoint.cpp`: 
 
 ```c 
-knob_cmd_append(&cmd,"./src/labX_entrypoint.c",);
+#define LAB_NAME "entrypoint"
 ```
 
 ## To Run/Debug:
@@ -20,7 +20,7 @@ Pour débugger le code, pèser sur `F5` comme dans Visual Studio. Assurez-vous d
 Pour comprendre comment le run fonctionne, vous pouvez lire `launch.json`.
 
 ## Pour travailler:
-Pour chacun des labos copier le fichier `entrypoint.c` et renommer le `labX_entrypoint.c`, `X` étant le numéros du labo.
+Pour chacun des labos copier le fichier `entrypoint.cpp` et renommer le `labX_entrypoint.cpp`, `X` étant le numéros du labo.
 
 
 Pour vous aider, vous pouvez lire la documentation de [raylib](https://www.raylib.com/cheatsheet/cheatsheet.html).
