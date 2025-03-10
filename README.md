@@ -1,15 +1,23 @@
-# raylib-base 
+# raylib-base
 
 `git clone --recursive https://github.com/jsteach/raylib-base.git`
 
 ## To Build:
-Afin de construire ce projet vous avez simplement à ouvrir `vscode` et à cliquer sur `ctrl+shift+b` lorsque l'application à le focus.
+Pour travailler sur ce projet vous devez ouvrir `vscode` au dossier du répertoire du repository.
+
+Avant de pouvoir construire vous devez rouler dans le terminal de vscode le script: `setup.bat`.
+
+```batch
+.\setup.bat
+```
+
+Après avoir rouler script, vous pouvez cliquer sur `ctrl+shift+b` lorsque l'application à le focus pour construire le code C/C++.
 
 Pour comprendre comment le build fonctionne vous pouvez aller lire le fichier `knob.c` et `.vscode/tasks.json`.
 
-Pour que la compilation fonctionne, vous devez modifier cette ligne dans `knob.c` et remplacer le nom du fichier par le nom de votre `entrypoint.cpp`: 
+Pour que la compilation fonctionne, vous devez modifier cette ligne dans `knob.c` et remplacer le nom du fichier par le nom de votre `entrypoint.cpp`:
 
-```c 
+```c
 #define LAB_NAME "entrypoint"
 ```
 
