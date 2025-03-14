@@ -22,13 +22,19 @@
             "group": {
                 "kind": "build",
                 "isDefault": true
-            }
+            },
+            "dependsOn": "Run setup",
         },
         {
             "label": "Build game",
             "type": "shell",
             "command": "${workspaceFolder}/knob.exe",//"${workspaceFolder}/Tools/windows_x64/zig.exe",
             "dependsOn": "Build knob",
+        },
+        {
+            "label": "Run setup",
+            "type": "shell",
+            "command": "${workspaceFolder}/setup.bat",
         }
     ]
 }
